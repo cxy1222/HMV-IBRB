@@ -153,10 +153,9 @@ Training/test MSE and accuracy are printed for every view, followed by the CQI t
 
 | Sheet               | Content                                                 |
 | ------------------- | ------------------------------------------------------- |
-| Performance_Summary | Acc / Prec / Rec / F1 / AUC / MSE for all views + fused |
-| PerClass_Metrics    | Per-class Prec / Rec / F1 / AUC                         |
+| Performance_Summary | Acc / Prec / Rec / F1 / MSE for all views + fused |
+| PerClass_Metrics    | Per-class Prec / Rec / F1                        |
 | Confusion_Matrices  | Raw counts + row-normalised %                           |
-| ROC_AUC             | Per-class AUC + Macro AUC                               |
 | View1_LDA_Pred      | Sample-level predictions + belief degrees               |
 | View4_NCA_Pred      | Sample-level predictions + belief degrees               |
 | View7_TSNE_Pred     | Sample-level predictions + belief degrees               |
